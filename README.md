@@ -1,15 +1,12 @@
-# Store_Dashboard
+# Store_Dashboard 🛒
 Streamlit dashboard for retail sales analysis. Filter by date, category, payment method, and location. KPIs, daily trends, channel breakdown, and CSV export.
 
-✨ Features
+## ✨ Features
 
-KPIs: Total Sales, Avg. Ticket, Quantity Sold
-
-Sidebar filters: date range, categories, payment methods, locations
-
-Daily trend line, channel split (Online vs In-Store), payment and category distributions
-
-One-click CSV download of the filtered subset
+- KPIs: **Total Sales**, **Average Ticket**, **Quantity Sold**
+- Sidebar filters: **date range**, **categories**, **payment methods**, **locations**
+- Charts: daily trend, **Online vs In-Store** split, payment and category distributions
+- One-click CSV download of the filtered subset
 
 🧱 Project structure
 .
@@ -20,20 +17,28 @@ One-click CSV download of the filtered subset
 ├─ LICENSE
 └─ .gitignore
 
-📦 Installation
+
+---
+
+## 📦 Installation
+```bash
 python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
+
+# Windows
+.venv\Scripts\activate
+# macOS / Linux
 source .venv/bin/activate
 
 pip install -r requirements.txt
 
-▶️ Run locally
+---
+
+## ▶️ Run locally
 streamlit run App.py
 
 📊 Data schema
 
-Required columns in data/retail_store_sales_clean.csv:
+Required columns in retail_store_sales_clean.csv:
 
 Transaction Date (date)
 
