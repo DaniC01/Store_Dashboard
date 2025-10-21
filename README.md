@@ -9,27 +9,22 @@ Streamlit dashboard for retail sales analysis. Filter by date, category, payment
 - One-click CSV download of the filtered subset
 
 ## 🧱 Project structure
-.
-├─ App.py
-├─ requirements.txt
-├─ retail_store_sales_clean.csv
-├─ README.md
-├─ LICENSE
-└─ .gitignore
 
-## 📦 Installation
-bash
-python -m venv .venv
+`App.py`  
+`requirements.txt`  
+`data/retail_store_sales_clean.csv`  
+`README.md`  
+`LICENSE`  
+`.gitignore`
 
-# Windows
-.venv\Scripts\activate
-# macOS / Linux
-source .venv/bin/activate
+<pre> 
+## 📦 Installation ``` python -m venv .venv 
+  # Windows .venv\Scripts\activate 
 
-pip install -r requirements.txt
-
-## ▶️ Run locally
-streamlit run App.py
+  # macOS / Linux source .venv/bin/activate 
+  # Install dependencies pip install -r requirements.txt ``` 
+  
+## ▶️ Run locally ``` streamlit run App.py ``` </pre>
 
 ## 📊 Data schema
 
