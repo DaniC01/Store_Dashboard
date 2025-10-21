@@ -1,4 +1,5 @@
 # Store_Dashboard 
+[🌐 **Open the live Streamlit app**](https://storedashboard-sells.streamlit.app/)  
 Streamlit dashboard for retail sales analysis. Filter by date, category, payment method, and location. View KPIs, daily trends, channel breakdowns, and export filtered CSVs.
 
 Table of contents
